@@ -2,8 +2,8 @@
 Deterministic tools
 =====
 
-Deterministic functions is a very simple LRU implementation to a full-time cache
-of function results. Cache is stored over a dict stored on the decorator object. 
+Deterministic tools is a very simple LRU implementation to a full-time cache
+of function calls. Cache is stored over a dict stored on the decorator object. 
 To use the cache, just use the deterministic decorator in the function. Note 
 that as the cache system is very simple it is not thread safe, also there is
 just a simple method to control memory usage that can not match your 
