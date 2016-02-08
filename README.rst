@@ -1,5 +1,5 @@
 =====       
-Deterministic functions
+Deterministic tools
 =====
 
 Deterministic functions is a very simple LRU implementation to a full-time cache
