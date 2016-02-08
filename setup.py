@@ -15,7 +15,7 @@ setup(
     license='Apache License',
     description='Simple LRU cache implementation to cache functions calls.',
     long_description=README,
-    url='',
+    url='https://github.com/jejung/python-deterministic-tools',
     author='Jean Jung',
     author_email='jean.jung@rocketmail.com',
     classifiers=[
