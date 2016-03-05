@@ -15,15 +15,14 @@ Quick start.
 imported as follows:
 
     from deterministic import deterministic
-    
+
 2. The simple use is to decorate the function that must have the cache:
 
-    @deterministic()
-    def foo(): 
-    ...
+    @deterministic() def foo(): ...
     
 * Note that the parethesis are required in this decorator.
     
+
 3. If you want to limit the cache size, you can pass the maximum number of cache
 register to the decorator, as:
     
