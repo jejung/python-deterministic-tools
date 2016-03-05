@@ -20,16 +20,12 @@ imported as follows:
 
     @deterministic()
     def foo(): 
-        pass
+    ...
     
-    * Note that the parethesis are required in this decorator.
+* Note that the parethesis are required in this decorator.
     
 3. If you want to limit the cache size, you can pass the maximum number of cache
 register to the decorator, as:
     
     @deterministic(max_cache_size=10)
-    def foo(bar): 
-        return bar.process()
-        
-4. That's all.
-           
+    def foo(bar): return bar.process()
