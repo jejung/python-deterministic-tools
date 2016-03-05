@@ -26,5 +26,4 @@ imported as follows:
 3. If you want to limit the cache size, you can pass the maximum number of cache
 register to the decorator, as:
     
-    @deterministic(max_cache_size=10)
-    def foo(bar): return bar.process()
+    @deterministic(max_cache_size=10) def foo(bar): return bar.process()
